@@ -1,8 +1,8 @@
 const moment = require('moment');
 
 const isDate = ( value ) => {
-    
-    if( !value ) {
+
+    if ( !value ) {
         return false;
     }
 
@@ -12,8 +12,9 @@ const isDate = ( value ) => {
     } else {
         return false;
     }
+    
 }
 
-module.exports = {
-    isDate
-}
+
+
+module.exports = { isDate };
